@@ -2,7 +2,7 @@ use role foundry_marketing;
 use warehouse adhoc_reporting_wh;
 use database foundry;
 use schema marketing;
-select top 10 * from marts.marketing.mi_sales;
+--select top 10 * from marts.marketing.mi_sales;
 
 create or replace table temp as (
 select a.MKTG_IND_ID,a.tran_dt, b.FIRST_TRAN_DT, b.LAST_TRAN_DT, b.SECTOR_CD
